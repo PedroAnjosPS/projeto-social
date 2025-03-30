@@ -8,6 +8,30 @@
 }
 
 html, body {
-    height: vh;
+    height: 100vh;
     width: 100vw;
+    background-color: black;
+}
+
+body {
+    background: url("../imagens/fundo-madeira.jpg") no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+section#telefone {
+    /*Editando a section para centralizá-la verticalmente*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*Finalizando essa formatação*/
+    height: 627px;
+    width: 311px;
+    background: url("../imagens/frame-iphone.png") no-repeat;
 }

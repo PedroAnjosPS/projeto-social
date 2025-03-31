@@ -17,7 +17,7 @@ img {
 
 a {
     display: block;
-    background-color: darkred;
+    background-color: darkblue;
     color: white;
     padding: 20px;
     text-align: center;
@@ -26,5 +26,5 @@ a {
 }
 
 a:hover {
-    background-color: red;
+    background-color: blue;
 }
